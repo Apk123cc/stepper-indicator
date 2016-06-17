@@ -8,12 +8,7 @@
 
     </declare-styleable>
 
-    <declare-styleable name="rainbowBar">
-        <attr name="rainbowBackgroundColor" format="color" />
-        <attr name="rainbowHSpace" format="dimension" />
-        <attr name="rainbowVSpace" format="dimension" />
 
-    </declare-styleable>
 
 
     <declare-styleable name="StepperIndicator" tools:ignore="ResourceName">
