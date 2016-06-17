@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
+    <declare-styleable name="rainbowbar">
+        <attr name="rainbowbar_hspace" format="dimension" />
+        <attr name="rainbowbar_vspace" format="dimension" />
+        <attr name="rainbowbar_color" format="color" />
+
+    </declare-styleable>
+
     <declare-styleable name="rainbowBar">
         <attr name="rainbowBackgroundColor" format="color" />
         <attr name="rainbowHSpace" format="dimension" />
