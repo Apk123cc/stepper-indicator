@@ -71,6 +71,7 @@ public class StepperIndicator extends View implements ViewPager.OnPageChangeList
     public StepperIndicator(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(context, attrs, defStyleAttr);
+        //
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)

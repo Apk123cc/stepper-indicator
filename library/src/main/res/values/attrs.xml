@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="rainbowBar">
+        <attr name="rainbowBackgroundColor" format="color" />
+        <attr name="rainbowHSpace" format="dimension" />
+        <attr name="rainbowVSpace" format="dimension" />
+
+    </declare-styleable>
+
+
     <declare-styleable name="StepperIndicator" tools:ignore="ResourceName">
         <attr name="stpi_stepCount" format="integer"/>
         <attr name="stpi_animDuration" format="integer"/>
@@ -16,4 +25,6 @@
         <attr name="stpi_lineStrokeWidth" format="dimension"/>
         <attr name="stpi_lineMargin" format="dimension"/>
     </declare-styleable>
+
+
 </resources>
